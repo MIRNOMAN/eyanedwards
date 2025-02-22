@@ -111,6 +111,3 @@ export default function Home() {
   );
 }
 
-
-{/* <Image src={vectorIcon} width={500} height={500} alt="Your Image"  className="h-full w-full"/>  
-import vectorIcon from '@/assets/CreditCard/vector_10.png' */}

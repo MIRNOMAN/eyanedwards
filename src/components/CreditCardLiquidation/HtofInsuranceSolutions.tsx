@@ -3,23 +3,27 @@ import backroundShado from '@/assets/background.png'
 
 export default function HtofInsuranceSolutions() {
   return (
-    <section className="relative w-full  text-white py-12 ">
+    <section className="relative w-full   text-white py-12 ">
     {/* Background Image */}
     <div
-      className="absolute inset-0 bg-cover bg-center opacity-30"
+      className="absolute inset-0 bg-cover  bg-center opacity-30"
      
     ></div>
     
     {/* Content */}
     <div className=''>
-    <div className="relative  text-center md:py-[100px] z-[1] bg-black" >
+    <div className="relative  text-center md:py-[100px] p-6 md:p-0 z-[1] bg-black" >
         <div style={{ backgroundImage: `url(${backroundShado.src})` }} className='absolute inset-0 z-[-1] opacity-20'></div>
       <h2 className="text-3xl md:text-4xl font-bold text-yellow-500">HTOF Insurance Solutions</h2>
-      <p className="text-2xl md:text-4xl font-bold text-yellow-500">WHY CHOOSE US</p>
-      <p className="text-lg text-center mt-[25px] md:text-[20px] font-normal md:px-[374px] leading-[50px] tracking-widest">
-      You don’t need years of experience or a big budget to start
-      your own funding business. You just need the right partner. High Ticket Offer Financing empowers you with everything you need to build a sustainable, high-revenue business.
+      <p className="text-xl md:text-2xl md:font-bold font-medium text-white leading-7 mt-3">WHY CHOOSE US</p>
+      <p className="text-lg text-center mt-[25px] md:text-[20px] font-normal md:px-[374px] leading-[45px] tracking-widest">
+      From customized policies to wealth preservation, legacy planning, and expert guidance; HTOF Insurance Solutions specializes in providing tailored insurance solutions for busy
+professionals and ambitious entrepreneurs. Our approach is rooted in understanding
+your unique needs and crafting policies that go beyond basic protection to offer true financial security.
       </p>
+      <button className="mt-6 bg-yellow-500 text-black font-normal px-6 py-3 rounded-2xl hover:bg-yellow-600 transition-all duration-300">
+      Complimentary Financial Review
+    </button>
     </div>
     </div>
     
