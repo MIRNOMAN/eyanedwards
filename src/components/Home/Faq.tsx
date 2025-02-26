@@ -18,13 +18,13 @@ export default function Faq() {
   return (
     <section className="py-[50px] lg:py-[150px] px-4 md:px-6 lg:px-8 bg-[#F5F5F5]">
     <div className="max-w-5xl mx-auto">
-      <h2 className="text-[40px] font-bold text-center text-primary leading-[60px] mb-8 ">
+      <h2 className="text-[40px] font-bold text-center font-minion text-[#AA7C38] leading-[60px] mb-8 ">
         Frequently asked questions
       </h2>
 
 
       {/* FAQ Items */} 
-      <div className="mt-[60px] space-y-[60px]"> 
+      <div className="mt-[60px]  space-y-[60px]"> 
         {faqData.Funding.map(
           ({ question, answer }) => (
             <div
@@ -35,18 +35,18 @@ export default function Faq() {
                 onClick={() => toggleItem(question)}
                 className="w-full flex justify-between items-center py-4 pl-7 text-left hover:bg-gray-50"
               >
-                <span className="font-normal  lg:font-medium text-default text-[14px] lg:text-base w-[250px] lg:w-full">{question}</span>
+                <span className="font-normal  lg:font-medium font-montserrat text-default text-[14px] lg:text-base w-[250px] lg:w-full">{question}</span>
                 
                 <div className="flex items-center justify-center w-[50px] h-[50px] rounded-full bg-[#ECECEC]"> {/* Add bg-primary */}
                   <ChevronsDown
-                    className={`w-10 h-8   text-primary transition-transform duration-200
+                    className={`w-10 h-8   text-[#AA7C38] transition-transform duration-200
                       ${openItems.includes(question) ? "rotate-180 " : ""}`}
                   />
                 </div>
               </button>
 
               {openItems.includes(question) && (
-                <div className="px-4 pb-4 text-black">{answer}</div>
+                <div className="px-4 pb-4 text-black font-montserrat">{answer}</div>
               )}
             </div>
           )

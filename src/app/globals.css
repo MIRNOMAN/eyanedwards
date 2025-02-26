@@ -2,20 +2,54 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Minion Pro';
+  src: url('/fonts/MinionPro-Regular.woff2') format('woff2'),
+       url('/fonts/MinionPro-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Clash Display Variable';
+  src: url('/fonts/ClashDisplayVariable.woff2') format('woff2'),
+       url('/fonts/ClashDisplayVariable.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Odelia';
+  src: url('/fonts/Odelia-Regular.woff2') format('woff2'),
+       url('/fonts/Odelia-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Adelia'; /* Capitalize the font name */
+  src: url("/fonts/adelia.woff2") format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font-minion-pro: 'Minion Pro', serif;
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-clash-display: 'Clash Display Variable', sans-serif;
+  --font-adelia: 'Adelia', cursive; 
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --font-montserrat: 'Montserrat', sans-serif;
   }
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: var(--font-montserrat); */
 }

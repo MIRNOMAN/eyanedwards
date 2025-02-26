@@ -10,7 +10,7 @@ interface CardProps {
   className?: string;
 }
 
-const Card: React.FC<CardProps> = ({ src, alt, width = 700, height = 700, className = "" }) => {
+const Card: React.FC<CardProps> = ({ src, alt, width = 1000, height = 1000, className = "" }) => {
   return (
     <div className='container py-[50px] flex justify-center'>
       {typeof src === 'string' ? (

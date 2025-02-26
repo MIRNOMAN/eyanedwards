@@ -28,7 +28,7 @@ export default function Footer() {
   const logo = logoMap[pathname] || logo_1;
 
   return (
-    <footer className="px-6 md:px-12 lg:px-20 py-16 bg-black text-white">
+    <footer className="px-6 md:px-12 font-montserrat lg:px-20 py-16 bg-black text-white">
       <div className="mx-auto grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center sm:text-left">
         {/* Logo & Operating Hours */}
         <div className="flex flex-col items-center sm:items-start">

@@ -22,10 +22,10 @@ const testimonials = [
 export default function CustomExperience() {
   return (
     <section className="container py-[90px] bg-white text-center">
-      <h2 className="text-[16px] tracking-widest font-normal uppercase text-gray-500">
+      <h2 className="text-[16px] tracking-widest font-montserrat font-normal md:leading-[20px] uppercase text-gray-500">
         Customer Experience
       </h2>
-      <h3 className="text-[40px] mt-[32px] leading-[48px] font-bold text-[#AA7C38] text-gold-600 ">
+      <h3 className="text-[40px] mt-[32px] leading-[48px] font-minion font-bold text-[#AA7C38] text-gold-600 ">
         What Our Clients Are Saying
       </h3>
       <div className="mt-[60px] px-4  mx-auto">

@@ -38,7 +38,7 @@ export default function HowItWorks() {
       </div>
 
       <div className="text-center md:flex justify-between items-center mt-5 mb-8">
-        <h2 className="text-2xl md:text-left  md:text-[50px] text-[20px] font-semibold leading-[60px]">
+        <h2 className="text-2xl font-minion md:text-left  md:text-[50px] text-[20px] font-semibold leading-[60px]">
           <span className="text-yellow-500 md:text-[50px] text-[20px] font-semibold leading-[60px]">
             How It Works:
           </span>{' '}
@@ -46,7 +46,7 @@ export default function HowItWorks() {
         </h2>
 
         <div className="text-center mt-8">
-          <button className="bg-yellow-500 text-black px-12 leading-6 py-5 rounded-xl font-semibold hover:bg-yellow-600 transition">
+          <button className="bg-yellow-500 font-montserrat text-black px-12 leading-6 py-5 text-[18px] rounded-xl font-semibold hover:bg-yellow-600 transition">
             Apply Now
           </button>
         </div>
@@ -63,8 +63,8 @@ export default function HowItWorks() {
                 height={52}
                 className="mb-4"
               />
-              <h3 className="text-[20px] leading-7 text-center mt-3 font-bold mb-4">{step.title}</h3>
-              <p className="text-[20px] px-12 text-center leading-7 font-normal">{step.description}</p>
+              <h3 className="text-[20px] leading-7 text-center mt-3 font-montserrat font-bold mb-4">{step.title}</h3>
+              <p className="text-[20px] px-12 text-center leading-7 font-montserrat font-normal">{step.description}</p>
             </div>
           </div>
         ))}

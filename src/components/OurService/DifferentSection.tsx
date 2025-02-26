@@ -24,7 +24,7 @@ const steps = [
 
 export default function DifferentSection() {
   return (
-    <section className="relative  text-white   py-[110px] px-4 md:px-[220px]">
+    <section className="relative font-montserrat  text-white   py-[110px] px-4 md:px-[220px]">
     {/* Background Image */}
    
 
@@ -42,7 +42,7 @@ export default function DifferentSection() {
               className="mb-4"
             />
             <h3 className="text-[20px] leading-7 text-center mt-3 font-bold mb-4">{step.title}</h3>
-            <p className="text-[20px] px-12 text-center leading-7 font-normal">{step.description}</p>
+            <p className="text-[16px] px-12 text-center leading-7 font-normal">{step.description}</p>
           </div>
         </div>
       ))}

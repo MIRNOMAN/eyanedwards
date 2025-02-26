@@ -33,7 +33,7 @@ export default function ResourceHub() {
   ></div>
 
   <div className="text-center flex justify-between items-center mt-5 mb-8">
-    <div className="text-2xl flex-grow md:text-3xl md:text-[50px] text-[#E7A647] text-[20px] font-semibold leading-[60px]">
+    <div className="text-2xl font-minion flex-grow md:text-3xl md:text-[50px] text-[#E7A647] text-[20px] font-semibold md:leading-[56px]">
       <h1>Resource Hub</h1>
     </div>
   </div>
@@ -50,7 +50,7 @@ export default function ResourceHub() {
             className="h-[400px] w-full object-cover"
           />
         </div>
-        <p className="text-[16px] py-[62px] px-[70px] text-black text-center leading-5 font-semibold">
+        <p className="text-[18px] py-[62px] px-[70px] font-minion text-black text-center leading-7 font-semibold">
           {step.description}
         </p>
       </div>

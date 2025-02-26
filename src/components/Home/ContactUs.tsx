@@ -23,10 +23,10 @@ export default function ContactUs() {
         <div className="container flex flex-col md:flex-row gap-[105px]">
         {/* Left Section (Text and Social Icons) */}
         <div className="text-center md:text-left w-full md:pt-20  md:w-1/2 text-white">
-          <h1 className="text-[32px] sm:text-[40px] leading-[48px] tracking-wide font-bold mb-4">
+          <h1 className="text-[32px] sm:text-[40px] font-minion text-primary leading-[48px] tracking-wide font-bold mb-4">
             Contact Us
           </h1>
-          <p className="text-[16px] sm:text-[20px] mt-[50px]  md:leading-10 font-medium  mb-6">
+          <p className="text-[16px] sm:text-[20px] mt-[50px] font-montserrat md:mr-[170px] tracking-wide md:leading-10 font-medium  mb-6">
             Have questions about funding? High Ticket Offer  Financing is here to help with business, personal, or customer financing solutions. Contact us today to get started!
           </p>
 
@@ -46,7 +46,7 @@ export default function ContactUs() {
         {/* Right Section (Form) */}
         <div className="w-full md:w-1/2 mt-12 md:mt-0">
           <form className="bg-white p-[30px] sm:p-[50px] rounded-lg shadow-lg">
-            <div className="mb-4">
+            <div className="mb-4 font-montserrat">
               <label htmlFor="fullName" className="block text-gray-700 font-bold mb-2">
                 Full Name *
               </label>
@@ -85,7 +85,7 @@ export default function ContactUs() {
                 className="shadow appearance-none rounded-lg w-full py-5 px-5 text-gray-700 leading-tight text-[#333333] focus:outline-none focus:shadow-outline bg-[#ECECEC]"
               />
             </div>
-            <p className="text-left leading-8 text-[15px] my-[50px]">
+            <p className="text-left leading-7 text-[13px] my-[50px]">
               This form is protected by reCAPTCHA and the Google{" "}
               <a href="#" className="font-bold">
                 Privacy Policy

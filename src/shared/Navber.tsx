@@ -7,8 +7,8 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import { X } from "lucide-react";
 import logo1 from "@/assets/logo/logo_1.png";
 import logo2 from "@/assets/logo/logo_2.png";
-import logo3 from "@/assets/logo/logo_3.png";
-import logo4 from "@/assets/logo/logo_4.png";
+import logo3 from "@/assets/logo/logo_4.png";
+import logo4 from "@/assets/logo/logo_3.png";
 
 export default function Navber() {
   
@@ -31,10 +31,10 @@ export default function Navber() {
 
 
     return (
-        <nav className={` top-0   w-full z-50 absolute  `}>
-        <div className="container mx-auto flex items-center justify-between px-4 py-9">
+        <nav className={` top-0   w-full z-50 absolute bg-black `}>
+        <div className="container font-montserrat font-normal mx-auto flex items-center justify-between px-4 py-9">
         <Link href="/" className="flex items-center gap-2">
-        <Image className="w-[130px] object-contain" src={logo} alt="nav logo" />
+        <Image className="md:w-[130px] w-[50px] object-contain" src={logo} alt="nav logo" />
       </Link>
   
           <div className="hidden items-center gap-8 lg:flex">
@@ -58,7 +58,7 @@ export default function Navber() {
           </div>
   
           <div className="hidden items-center gap-4 lg:flex">
-            <button className="hidden rounded-[8px] border  px-6 py-[10px] font-medium text-white md:block">
+            <button className="hidden font-clash rounded-[8px] border  px-6 py-[10px] font-medium text-white md:block">
             Contact Us
             </button>
            

@@ -26,6 +26,12 @@ export default {
         blacks: "#000000",
       },
     },
+    fontFamily: {
+      minion: "var(--font-minion-pro)",
+      montserrat: "var(--font-montserrat)",
+      clash: "var(--font-clash-display)",
+      adelia: "var(--font-adelia)",
+    },
   },
   plugins: [],
 } satisfies Config;
