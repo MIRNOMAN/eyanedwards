@@ -14,9 +14,9 @@ export default function HtofInsuranceSolutions() {
     <div className=''>
     <div className="relative  text-center md:py-[100px] p-6 md:p-0 z-[1] bg-black" >
         <div style={{ backgroundImage: `url(${backroundShado.src})` }} className='absolute inset-0 z-[-1] opacity-20'></div>
-      <h2 className="text-3xl md:text-4xl font-bold font-minion text-yellow-500">HTOF Insurance Solutions</h2>
+      <h2 className="text-2xl md:text-4xl font-bold font-minion text-yellow-500">HTOF Insurance Solutions</h2>
       <p className="text-xl md:text-2xl md:font-bold font-medium font-montserrat tracking-widest text-white leading-7 mt-3">WHY CHOOSE US</p>
-      <p className="text-lg text-center mt-[25px] md:text-[20px] font-montserrat font-normal md:px-[374px] leading-[45px] tracking-widest">
+      <p className="text-base text-center mt-[25px] md:text-[20px] font-montserrat font-normal md:px-[374px] md:leading-[45px] md:tracking-widest">
       From customized policies to wealth preservation, legacy planning, and expert guidance; HTOF Insurance Solutions specializes in providing tailored insurance solutions for busy
 professionals and ambitious entrepreneurs. Our approach is rooted in understanding
 your unique needs and crafting policies that go beyond basic protection to offer true financial security.

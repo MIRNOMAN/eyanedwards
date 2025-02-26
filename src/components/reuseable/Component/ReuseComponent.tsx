@@ -11,7 +11,7 @@ interface ReuseComponentProps {
 
 export default function ReuseComponent({leftContent, rightContent}: ReuseComponentProps) {
   return (
-    <div className='container mx-auto my-[130px]'>
+    <div className='container px-3 md:px-0 mx-auto my-7 md:my-[100px]'>
         <div className='md:flex  justify-center gap-[75px] '>
             {/* Left side */}
             <div className="w-full  ">

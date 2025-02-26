@@ -23,7 +23,7 @@ export default function StaticBanner() {
       </video>
     </div>
 
-    <button className="mt-6 bg-yellow-500 font-montserrat text-black px-6 py-3 rounded-lg hover:bg-yellow-600 transition-all duration-300">
+    <button className="mt-6 bg-yellow-500 md:text-[14px]  text-[12px] font-montserrat text-black md:px-6 px-4 py-3 rounded-lg hover:bg-yellow-600 transition-all duration-300">
     Get Your Complimentary financial Review
     </button>
   </div>

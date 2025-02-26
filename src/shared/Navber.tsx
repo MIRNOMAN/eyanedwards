@@ -43,9 +43,9 @@ export default function Navber() {
               { name: "Our Services", path: "/our-services" },
               { name: "Credit Card Liquidation", path: "/credit-card-liquidation" },
               { name: "Group Economics", path: "/group-economics" },
-              { name: "Red Card", path: "/red-card" },
-              { name: "Get The Book", path: "/get-the-book" },
-              { name: "About Us", path: "/about-us" },
+              { name: "Red Card", path: "/" },
+              { name: "Get The Book", path: "" },
+              { name: "About Us", path: "" },
             ].map((link) => (
               <Link
                 key={link.path}
@@ -64,11 +64,11 @@ export default function Navber() {
            
           </div>
   
-          <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="lg:hidden">
+          <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="lg:hidden text-white">
             {isMenuOpen ? (
-              <X className="text-[22px] font-semibold text-black" />
+              <X className="text-[22px] font-semibold " />
             ) : (
-              <RxHamburgerMenu className="text-[25px] font-semibold text-black" />
+              <RxHamburgerMenu className="text-[25px] font-semibold " />
             )}
           </button>
         </div>
@@ -95,9 +95,9 @@ export default function Navber() {
                 { name: "Our Services", path: "/our-services" },
                 { name: "Credit Card Liquidation", path: "/credit-card-liquidation" },
                 { name: "Group Economics", path: "/group-economics" },
-                { name: "Red Card", path: "/red-card" },
-                { name: "Get The Book", path: "/get-the-book" },
-                { name: "About Us", path: "/about-us" },
+                { name: "Red Card", path: "/" },
+                { name: "Get The Book", path: "/" },
+                { name: "About Us", path: "/" },
               ].map((link) => (
                 <Link
                   key={link.path}

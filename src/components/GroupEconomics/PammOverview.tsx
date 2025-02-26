@@ -10,7 +10,7 @@ export default function PammOverview() {
         
      <div className='md:flex justify-center items-center gap-[60px]'>
      <div className='md:space-y-16'>
-       <div className="bg-white text-black p-5 md:rounded-[70px] md:w-[490px] md:p-[50px] mb-4">
+       <div className="bg-white text-black p-5 md:rounded-[70px] rounded-[30px] md:w-[490px] md:p-[50px] mb-4">
             <div className="flex   mb-3">
                 <div className="bg-yellow-500 text-white rounded-full md:w-[155px] w-[150px]  h-[40px] md:h-[60px] flex items-center justify-center text-lg font-bold mr-3">
                     01
@@ -27,7 +27,7 @@ export default function PammOverview() {
            
         </div>
 
-        <div className="bg-white text-black p-5 md:rounded-[70px] md:w-[490px] md:p-[50px] mb-4">
+        <div className="bg-white text-black p-5 md:rounded-[70px] rounded-[30px] md:w-[490px] md:p-[50px] mb-4">
             <div className="flex  mb-3">
                 <div className="bg-yellow-500 text-white rounded-full md:w-[400px] md:h-[60px] w-[380px] h-[40px] flex items-center justify-center text-lg font-bold mr-3">
                     03
@@ -49,7 +49,7 @@ export default function PammOverview() {
 
         <div className='md:space-y-16'>
         
-        <div className="bg-white text-black p-5 md:rounded-[70px] md:w-[490px] md:p-[50px] mb-4">
+        <div className="bg-white text-black p-5 md:rounded-[70px] rounded-[30px] md:w-[490px] md:p-[50px] mb-4">
             <div className="flex  mb-3">
                 <div className="bg-yellow-500 text-white rounded-full md:w-[100px] md:h-[60px] w-[110px] h-[40px] flex items-center justify-center text-lg font-bold mr-3">
                     02
@@ -62,7 +62,7 @@ export default function PammOverview() {
            
         </div>
 
-        <div className="bg-white text-black p-5 md:rounded-[70px] md:w-[490px] md:p-[50px] mb-4">
+        <div className="bg-white text-black p-5 md:rounded-[70px] rounded-[30px] md:w-[490px] md:p-[50px] mb-4">
             <div className="flex  mb-3">
                 <div className="bg-yellow-500 text-white rounded-full md:w-[120px] md:h-[60px] w-[120px] h-[40px] flex items-center justify-center text-lg font-bold mr-3">
                     04

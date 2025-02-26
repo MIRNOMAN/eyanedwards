@@ -3,14 +3,14 @@ import React from 'react'
 export default function BlogBanner() {
   return (
     <div className="container mx-auto p-6 md:p-12 mt-[200px]">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-[50px]">
+      <div className="grid grid-cols-1 md:grid-cols-3 md:space-x-[100px]">
         {/* Large Section */}
-        <div className="md:col-span-2 bg-[#D9D9D9] h-64 md:h-[600px] rounded-2xl"></div>
+        <div className="md:col-span-2 bg-[#D9D9D9] h-64 md:h-[600px]  rounded-2xl"></div>
         
         {/* Small Sections */}
         <div className="flex flex-col gap-[50px]">
-          <div className="bg-gray-400 h-28 bg-[#ABABAB] md:h-[180px] rounded-2xl"></div>
-          <div className="bg-gray-400 h-28 bg-[#ABABAB] md:h-[180px] rounded-2xl"></div>
+          <div className="bg-gray-400 h-28 bg-[#ABABAB] md:h-[200px] md:w-[300px] rounded-2xl"></div>
+          <div className="bg-gray-400 h-28 bg-[#ABABAB] md:h-[200px] md:w-[300px] rounded-2xl"></div>
         </div>
       </div>
 

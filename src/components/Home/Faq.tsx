@@ -18,13 +18,13 @@ export default function Faq() {
   return (
     <section className="py-[50px] lg:py-[150px] px-4 md:px-6 lg:px-8 bg-[#F5F5F5]">
     <div className="max-w-5xl mx-auto">
-      <h2 className="text-[40px] font-bold text-center font-minion text-[#AA7C38] leading-[60px] mb-8 ">
+      <h2 className="md:text-[40px] text-[30px] font-bold text-center font-minion text-[#AA7C38] leading-[60px] mb-8 ">
         Frequently asked questions
       </h2>
 
 
       {/* FAQ Items */} 
-      <div className="mt-[60px]  space-y-[60px]"> 
+      <div className="mt-[60px] space-y-7  md:space-y-[60px]"> 
         {faqData.Funding.map(
           ({ question, answer }) => (
             <div

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function AboutUs() {
   return (
-    <section className="bg-black mt-[150px] text-center text-white py-16 px-4 md:px-8">
+    <section className="bg-black md:mt-[150px] mt-10 text-center text-white py-16 px-4 md:px-8">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-2xl md:text-[50px] font-minion font-semibold text-yellow-500 mb-4">
           About Us

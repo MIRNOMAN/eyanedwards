@@ -28,8 +28,8 @@ export default function Footer() {
   const logo = logoMap[pathname] || logo_1;
 
   return (
-    <footer className="px-6 md:px-12 font-montserrat lg:px-20 py-16 bg-black text-white">
-      <div className="mx-auto grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center sm:text-left">
+    <footer className="px-6  font-montserrat  py-16 bg-black text-white">
+      <div className=" container mx-auto grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center sm:text-left">
         {/* Logo & Operating Hours */}
         <div className="flex flex-col items-center sm:items-start">
           <Image src={logo} alt="Company Logo" width={110} height={85} className="h-20 w-auto" />
@@ -53,7 +53,7 @@ export default function Footer() {
           <h2 className="text-lg font-bold text-primary mb-3">Contact Us</h2>
           <div className="flex items-center space-x-2 text-gray-400 text-sm">
             <Image src={logo_icon_1} alt="Email Icon" width={22} height={22}  />
-            <Link href="mailto:info@hightickeofferfinancing.com" className="hover:text-white md:text-[15px] text-[13px]">info@hightickeofferfinancing.com</Link>
+            <Link href="mailto:info@hightickeofferfinancing.com" className="hover:text-white md:text-[15px] text-[12px] ">info@hightickeofferfinancing.com</Link>
           </div>
         </div>
 

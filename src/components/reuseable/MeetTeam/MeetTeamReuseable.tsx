@@ -9,7 +9,7 @@ interface ReuseComponentProps {
 
 export default function MeetTeamReuseable({meetleftContent, meetrightContent}: ReuseComponentProps) {
   return (
-   <div className='container mx-auto my-[130px]  md:px-28'>
+   <div className='container mx-auto md:my-[130px] my-10 px-5 md:px-28'>
            <div className='md:flex  justify-center  '>
                {/* Left side */}
                <div className="md:w-1/2  ">

@@ -37,7 +37,7 @@ export default function Page() {
             <p className="md:text-[18px] text-base font-medium md:pt-[120px] tracking-wide md:leading-[27px]">
               Here at HTOF Insurance Solutions, we understand the hard work it takes to build your success. Whether you’re a driven professional or a visionary entrepreneur, your wealth represents years of dedication, passion, and perseverance.
             </p>
-            <button className="px-16 py-3 bg-yellow-600 text-white font-semibold rounded-2xl mt-[65px] hover:bg-yellow-700">
+            <button className="md:px-16 px-5 py-3 bg-yellow-600 text-white font-semibold rounded-2xl mt-[65px] hover:bg-yellow-700">
               Get Your Complimentary Financial Review
             </button>
           </div>
@@ -46,7 +46,7 @@ export default function Page() {
 
       <HtofInsuranceSolutions />  
 
-      <Card src={pictureSection1} alt="Meet The Team" className="md:h-full md:w-[450px] px-6 md:px-0" />
+      <Card src={pictureSection1} alt="Meet The Team" className="md:h-full md:w-[450px] w-[70%] px-6 md:px-0" />
 
       {/* Meet the Team Section */}
       <MeetTeamReuseable 
@@ -56,7 +56,7 @@ export default function Page() {
           </div>
         }
         meetrightContent={
-          <div className="bg-black md:h-[890px] md:w-[650px] md:rounded-r-[100px] px-[66px] py-[90px]">
+          <div className="bg-black md:h-[890px] md:w-[650px] md:rounded-r-[100px] md:px-[66px] px-5 md:py-[90px] py-8">
             <h2 className="md:text-[50px] text-[30px] font-minion font-bold leading-[55px] text-yellow-500">King Edwards</h2>
             <h3 className="md:text-[24px] text-[20px] font-montserrat font-bold leading-[34px] text-white mt-4">King, a visionary, funding expert, and author</h3>
             <p className="mt-[42px] text-[16px] font-normal leading-7 text-white font-montserrat text-gray-300">
@@ -74,7 +74,7 @@ export default function Page() {
 
       <MeetTeamReuseable 
         meetleftContent={
-          <div className="bg-black md:h-[890px] md:w-[650px] md:rounded-l-[100px] px-[66px] py-[90px]">
+          <div className="bg-black md:h-[890px] md:w-[650px] md:rounded-l-[100px] md:px-[66px] px-5 md:py-[90px] py-8">
             <h2 className="md:text-[50px] text-[30px] font-bold font-minion leading-[55px] text-yellow-500">Alexis Holifield</h2>
             <h3 className="md:text-[24px] text-[20px] font-bold font-montserrat leading-[34px] mt-4 text-white">Co-Founder of The Millennial Millionaire</h3>
             <p className="mt-[42px] text-[16px] font-normal text-white leading-7 font-montserrat text-gray-300">
@@ -96,11 +96,11 @@ export default function Page() {
       <MeetTeamReuseable 
         meetleftContent={
           <div className="md:h-[1100px] md:w-[650px]">
-            <Image src={Image4} alt="Gene Santos" width={900} height={900} className="object-cover md:h-[1100px] md:w-[650px] md:rounded-l-[100px]" />
+            <Image src={Image4} alt="Gene Santos" width={900} height={900} className="object-cover md:h-[1100px]   md:w-[650px] md:rounded-l-[100px]" />
           </div>
         }
         meetrightContent={
-          <div className="bg-black md:h-[1100px] md:w-[650px] md:rounded-r-[100px] px-[66px] py-[90px]">
+          <div className="bg-black md:h-[1100px] md:w-[650px] md:rounded-r-[100px] md:px-[66px] px-5 md:py-[90px] py-8">
             <h2 className="md:text-[50px] text-[30px] font-bold font-minion leading-[55px] text-yellow-500">Gene Santos</h2>
             <h3 className="md:text-[24px] text-[20px] font-bold font-montserrat leading-[34px] text-white mt-4">Financial Advisor</h3>
             <p className="mt-[42px] text-[16px] font-normal text-white font-montserrat leading-7 text-gray-300">
@@ -146,13 +146,13 @@ financial objectives and legacy planning goals.
         }
         rightContent={
           <div className="md:text-left mx-auto md:p-10 md:mr-28 md:px-0 px-6 text-center">
-            <h1 className="md:text-[50px] text-base font-minion font-bold md:pt-[90px] pt-7 text-[#AA7C38] tracking-wide md:leading-[75px]">
+            <h1 className="md:text-[50px] text-[30px]  font-minion font-bold md:pt-[90px] pt-7 text-[#AA7C38] tracking-wide md:leading-[75px]">
               Ready to get started?
             </h1>
             <p className="md:text-[18px] text-base text-[#4C4C4C] font-montserrat font-medium md:py-[30px] tracking-wide md:leading-[27px]">
               Start Securing Your Future Today!
             </p>
-            <button className="px-16 py-3 bg-yellow-600 mt-4 font-montserrat text-white font-semibold rounded-2xl hover:bg-yellow-700">
+            <button className="md:px-16 px-5 md:text-[16px] text-[12px] py-3 bg-yellow-600 mt-4 font-montserrat text-white font-semibold rounded-2xl hover:bg-yellow-700">
               Get Your Complimentary Financial Review
             </button>
           </div>

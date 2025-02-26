@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 export default function LaserFund() {
   return (
-    <section className="bg-black text-white z-[1] md:mt-[100px] py-[110px] md:px-[200px] relative">
+    <section className="bg-black text-white z-[1] md:mt-[100px] md:py-[110px] py-10 md:px-[200px] relative">
   <div 
     className="absolute inset-0 z-[-1] bg-cover bg-center bg-no-repeat opacity-30"
     style={{ backgroundImage: `url(${backroundShado?.src})` }}
@@ -19,7 +19,7 @@ export default function LaserFund() {
                 <h1 className='text-[16px] leading-7 font-normal mt-10'>Our PAMM is committed to delivering above-market returns through diversification, robust backtesting, and adaptive algorithms designed for various market conditions.</h1>
       </div>
       <div className='md:w-1/2 flex justify-center items-center mt-16 md:mt-0'>
-                  <Image src={logoPicture} alt='picture leser found' width={700} height={700} className='h-full md:w-[350px] w-[250px]'/>
+                  <Image src={logoPicture} alt='picture leser found' width={700} height={700} className='h-full md:w-[350px] w-[200px]'/>
       </div>
     </div>
   </div>

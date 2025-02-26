@@ -8,33 +8,30 @@ import "swiper/css/navigation";
 import { Pagination, Autoplay, EffectCoverflow } from "swiper/modules";
 
 const testimonials = [
-  {
-    video: "/path-to-video1.mp4",
-  },
-  {
-    video: "/path-to-video2.mp4",
-  },
-  {
-    video: "/path-to-video3.mp4",
-  },
+  { video: "/path-to-video1.mp4" },
+  { video: "/path-to-video2.mp4" },
+  { video: "/path-to-video3.mp4" },
 ];
 
 export default function CustomExperience() {
   return (
-    <section className="container py-[90px] bg-white text-center">
+    <section className="container md:py-[90px] py-10 bg-white text-center">
       <h2 className="text-[16px] tracking-widest font-montserrat font-normal md:leading-[20px] uppercase text-gray-500">
         Customer Experience
       </h2>
-      <h3 className="text-[40px] mt-[32px] leading-[48px] font-minion font-bold text-[#AA7C38] text-gold-600 ">
+      <h3 className="md:text-[40px] text-[30px] mt-[32px] leading-[48px] font-minion font-bold text-[#AA7C38] text-gold-600 ">
         What Our Clients Are Saying
       </h3>
-      <div className="mt-[60px] px-4  mx-auto">
+      <div className="mt-[60px] px-4 mx-auto relative">
+        {/* Top Pagination */}
+        <div className="custom-pagination-top flex justify-center mb-4"></div>
+
         <Swiper
           effect={'coverflow'}
           grabCursor={true}
           centeredSlides={true}
           slidesPerView={'auto'}
-          initialSlide={1} // Ensures the second slide is displayed by default
+          initialSlide={1}
           coverflowEffect={{
             rotate: 5,
             stretch: 10,
@@ -44,12 +41,17 @@ export default function CustomExperience() {
           }}
           spaceBetween={20}
           breakpoints={{
-            768: { slidesPerView: 3 },
-            1024: { slidesPerView: 3 },
+            768: { slidesPerView: 2.3 },
+            1024: { slidesPerView: 2.3 },
           }}
-          pagination={{ clickable: true }}
-          navigation={false} // Removed navigation icons
-          // autoplay={{ delay: 3000, disableOnInteraction: false }}
+          pagination={{
+            clickable: true,
+            el: " .custom-pagination-bottom",
+            renderBullet: (index, className) => `
+              <span class="${className} w-3 h-3 rounded-full bg-gray-300 mx-1 hover:bg-[#AA7C38] transition-all"></span>
+            `,
+          }}
+          navigation={false}
           modules={[Pagination, Autoplay, EffectCoverflow]}
           className="py-5"
         >
@@ -60,15 +62,19 @@ export default function CustomExperience() {
                   <video
                     src={testimonial.video}
                     controls
-                    className="w-full h-[400px] object-cover rounded-xl overflow-hidden border-none"
+                    className="md:w-full md:h-[300px] object-cover rounded-xl"
                   />
-                  <div className="absolute bottom-0 w-full bg-black/50 text-white p-2 text-center">
-                  </div>
                 </div>
               </div>
             </SwiperSlide>
           ))}
         </Swiper>
+
+        {/* Middle Pagination (Centered over Swiper) */}
+        <div className="custom-pagination-middle flex justify-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
+
+        {/* Bottom Pagination */}
+        <div className="custom-pagination-bottom flex justify-center mt-6"></div>
       </div>
     </section>
   );

@@ -9,7 +9,7 @@ interface BrandingSectionProps {
 
 export default function BrandingSection({children, title}: BrandingSectionProps) {
   return (
-    <div className="container w-full flex flex-col items-center space-y-6  md:px-8 lg:px-28">
+    <div className="container w-full flex flex-col items-center space-y-6 px-5  md:px-8 lg:px-28">
       {/* AS SEEN ON SECTION */}
       <div className="  rounded-2xl  text-center w-full ">
         <Image src={Branding_picture} className='h-full w-full' alt="As Seen On" width={900} height={900} />
@@ -20,7 +20,7 @@ export default function BrandingSection({children, title}: BrandingSectionProps)
         <p className="text-sm font-minion  font-normal leading-5 md:leading-[55px] md:text-[28px]">
           {children}
         </p>
-        <p className="my-6  md:text-[40px] text-xl  text-[#E7A647] md:leading-[55px] font-adelia font-normal">{title}</p>
+        <p className="my-6  md:text-[40px] text-base  text-[#E7A647] md:leading-[55px] font-adelia font-normal">{title}</p>
       </div>
     </div>
   )

@@ -5,6 +5,9 @@ import Image from 'next/image'
 import React from 'react'
 import about_icon from "@/assets/home/icons/Vector.png";
 import KeySteps from '@/components/Blog/KeySteps'
+import WhyPartner from '@/components/Blog/WhyPartner'
+import HowMuch from '@/components/Blog/HowMuch'
+import GetStartedToday from '@/components/Blog/GetStartedToday'
 
 export default function page() {
   return (
@@ -16,7 +19,7 @@ export default function page() {
         leftContent={
         <div className="md:text-left px-7 md:px-0 text-center mt-[50px]">
         <div className="md:text-[45px] text-base text-[#E7A647] font-minion font-semibold md:leading-[55px]">Why Start a Funding Company?</div>
-        <div><h1 className='text-[16px] font-normal leading-[29px] font-montserrat py-[50px] text-white'>The need for business and personal funding has skyrocketed in recent years. Small businesses and entrepreneurs often face challenges accessing traditional bank loans, creating a massive demand for alternative funding solutions. By providing these solutions, you can</h1></div>
+        <div><h1 className='text-[16px] font-normal leading-[29px] tracking-normal font-montserrat py-[50px] text-white'>The need for business and personal funding has skyrocketed in recent years. Small businesses and entrepreneurs often face challenges accessing traditional bank loans, creating a massive demand for alternative funding solutions. By providing these solutions, you can</h1></div>
         <div className="mt-[37px] space-y-[24px] md:space-y-[64px]">
         <div className="flex justify-start  gap-8">
         <Image src={about_icon} width={500} height={500} alt="Your Image"  className="md:h-[28px] h-[20px] md:w-[35px] w-[25px]"/>
@@ -34,7 +37,7 @@ export default function page() {
       </div>
       } 
         rightContent={
-          <div className='md:ml-[100px] mt-[50px] md:mt-[100px]'>
+          <div className='md:ml-[150px] mt-[50px] md:mt-[100px]'>
           <Image src={paterIcon} width={500} height={500} alt="Your Image"  className=" md:h-[400px] md:w-[400px] h-full w-full"/>
         </div>
         }
@@ -42,6 +45,9 @@ export default function page() {
       </div>
 
       <KeySteps />
+      <WhyPartner/>
+      <HowMuch/>
+      <GetStartedToday/>
     </div>
   )
 }
