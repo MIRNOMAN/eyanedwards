@@ -22,13 +22,8 @@ export default function Banner({subtitle,  buttonTitle, children }: BannerProps)
         {subtitle}
       </p>
 
-      <div className="mt-6 md:w-full md:max-w-5xl mx-auto px-4">
-      <iframe
-    className="w-full md:h-[450px] h-[300px] md:rounded-[70px] rounded-2xl"
-    src="https://www.youtube.com/embed/au2n7VVGv_c?si=ZVETWqoRxY7mMy8x&modestbranding=1&rel=0&showinfo=0&controls=1"
-    title="YouTube video player"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  ></iframe>
+      <div className="mt-6  md:max-w-5xl  mx-auto px-4">
+      <iframe   className="md:w-full w-full md:p-8 md:h-[450px] h-[280px] md:rounded-[70px] rounded-2xl" src="https://www.youtube.com/embed/EleiblVKYU8?si=7Xptxa2rDh8L3j_T" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  ></iframe>
   {/* <ReactPlayer
         url='https://www.youtube.com/embed/au2n7VVGv_c?si=ZVETWqoRxY7mMy8x&modestbranding=1&rel=0&showinfo=0&controls=1'
         controls={true}  // Show minimal controls

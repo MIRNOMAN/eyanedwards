@@ -12,15 +12,14 @@ export default function StaticBanner() {
    <div className="mt-4 ">
    <span className=" text-lg font-montserrat sm:text-xl text-center  relative container md:text-2xl font-normal mx-auto  tracking-widest  py-4">
     Watch this Video
-    <Image src={banner_icon} alt="icons" width={50} height={50} className="h-[90px] hidden  md:block w-[110px] absolute md:-right-[140px] top-5 z-[1]"  />
+    <Image src={banner_icon} alt="icons" width={50} height={50} className="h-[70px] hidden  md:block w-[110px] absolute md:-right-[140px] top-5 z-[1]"  />
     </span>
    </div>
 
-    <div className="mt-12 w-full  max-w-3xl mx-auto px-4">
-      <video className="w-full rounded-lg md:rounded-[40px] h-auto" controls>
-        <source src="/path-to-your-video.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+    <div className=" w-full  max-w-5xl mx-auto px-4">
+    <div className="  md:max-w-5xl  mx-auto px-4">
+    <iframe className="md:w-full w-full md:p-8 md:h-[450px] h-[280px] md:rounded-[70px] rounded-2xl" src="https://www.youtube.com/embed/GZ36JbqF2v4?si=3Y0hETJxBKYoP6vi" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  ></iframe>
+      </div>
     </div>
 
     <button className="mt-6 bg-yellow-500 md:text-[14px]  text-[12px] font-montserrat text-black md:px-6 px-4 py-3 rounded-lg hover:bg-yellow-600 transition-all duration-300">

@@ -61,10 +61,10 @@ export default function HowItWorks() {
                 alt={step.title}
                 width={52}
                 height={52}
-                className="mb-4 md:w-full md:h-full w-[12%]"
+                className="mb-4 md:w-[14%] md:h-full w-[12%]"
               />
               <h3 className="md:text-[20px] text-[17px] leading-7 text-center mt-3 font-montserrat font-bold mb-4">{step.title}</h3>
-              <p className="md:text-[20px] text-[15px] md:px-12 text-center leading-7 font-montserrat font-normal">{step.description}</p>
+              <p className="md:text-[18px] text-[15px] md:px-12 text-center leading-7 font-montserrat font-normal">{step.description}</p>
             </div>
           </div>
         ))}

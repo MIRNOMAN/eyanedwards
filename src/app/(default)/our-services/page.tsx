@@ -1,4 +1,4 @@
-import Banner from '@/components/reuseable/Banner'
+
 import BrandingSection from '@/components/reuseable/BrandingSection'
 import ReuseComponent from '@/components/reuseable/Component/ReuseComponent'
 import Image from 'next/image'
@@ -13,25 +13,13 @@ import NoExperience from '@/components/OurService/NoExperience'
 import DifferentSection from '@/components/OurService/DifferentSection'
 import CustomExperience from '@/components/Home/CustomExperience'
 import WhatYouGet from '@/components/OurService/WhatYouGet'
+import StartYourOwnFundding from '@/components/OurService/StartYourOwnFundding';
 
 
 export default function page() {
   return (
     <div>
-        <Banner
-         subtitle={
-          <span className="flex justify-center md:px-[470px]">
-           Start a Highly-Profitable Funding
- Business Today and earn six to seven figures helping
-businesses and individuals secure the funding they
- need no experience Needed!
-          </span>
-        }
-        src="/path-to-your-video.mp4" 
-        buttonTitle ="Your Journey Starts Here"
-        >
-          <h1 className='font-minion'>Launch Your <span className='text-yellow-400'>7-Figure Funding Business</span> in 90 Days</h1>
-        </Banner>
+       <StartYourOwnFundding/>
 
         <div className='md:py-[130px] py-6'>
         <BrandingSection

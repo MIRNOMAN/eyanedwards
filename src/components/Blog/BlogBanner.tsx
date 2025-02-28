@@ -2,20 +2,26 @@ import React from 'react'
 
 export default function BlogBanner() {
   return (
-    <div className="container mx-auto p-6 md:p-12 mt-[200px]">
-      <div className="grid grid-cols-1 md:grid-cols-3 md:space-x-[100px]">
+    <div className="container mx-auto p-6 md:p-12 mt-[120px] md:mt-[200px]">
+      <div className="grid grid-cols-1 md:grid-cols-3 md:space-x-[100px] space-y-14 md:space-y-0">
         {/* Large Section */}
-        <div className="md:col-span-2 bg-[#D9D9D9] h-64 md:h-[600px]  rounded-2xl"></div>
+        <div className="md:col-span-2 h-64 md:h-[600px]  rounded-2xl">
+        <iframe className="md:w-full w-full md:h-full h-[280px] md:rounded-[30px] rounded-2xl" src="https://www.youtube.com/embed/mRKJTzM-qTk?si=I4ACGMsJGhCJ8F7s" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+        </div>
         
         {/* Small Sections */}
-        <div className="flex flex-col gap-[50px]">
-          <div className="bg-gray-400 h-28 bg-[#ABABAB] md:h-[200px] md:w-[300px] rounded-2xl"></div>
-          <div className="bg-gray-400 h-28 bg-[#ABABAB] md:h-[200px] md:w-[300px] rounded-2xl"></div>
+        <div className="flex flex-col gap-[40px] space-y-44 md:space-y-0">
+          <div className="bg-gray-400 h-28  md:h-[200px] md:w-[300px] rounded-2xl">
+          <iframe className="md:w-full w-full md:h-full h-[280px] md:rounded-[30px] rounded-2xl" src="https://www.youtube.com/embed/mRKJTzM-qTk?si=I4ACGMsJGhCJ8F7s" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+          </div>
+          <div className="bg-gray-400 h-28  md:h-[200px] md:w-[300px] rounded-2xl">
+          <iframe className="md:w-full w-full md:h-full h-[280px] md:rounded-[30px] rounded-2xl" src="https://www.youtube.com/embed/mRKJTzM-qTk?si=I4ACGMsJGhCJ8F7s" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+          </div>
         </div>
       </div>
-
+ 
       {/* Text Section */}
-      <div className="mt-8 ">
+      <div className="md:mt-8 mt-[200px]">
         <h2 className="text-xl md:text-[50px] font-semibold md:leading-[60px] md:pt-[50px] text-[#AA7C38] font-minion text-gray-800">
           How to Start a Profitable Funding Business
         </h2>

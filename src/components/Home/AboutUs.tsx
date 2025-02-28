@@ -16,13 +16,7 @@ export default function AboutUs() {
         </p>
 
         <div className="mt-[58px] flex justify-center">
-          <video
-            className="w-full md:max-w-4xl md:rounded-[50px] rounded-2xl  bg-gray-700 "
-            controls
-          >
-            <source src="your-video-url.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+        <iframe className="md:w-full w-full md:p-8 md:h-[450px] h-[280px] md:rounded-[70px] rounded-2xl" src="https://www.youtube.com/embed/Oc2QVi4RdwU?si=7Xol3Y8jyLhIUMLZ" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
         </div>
       </div>
     </section>
