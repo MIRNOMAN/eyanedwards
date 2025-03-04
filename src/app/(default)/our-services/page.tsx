@@ -21,12 +21,12 @@ export default function page() {
     <div>
        <StartYourOwnFundding/>
 
-        <div className='md:py-[130px] py-6'>
+        <div className=' py-6'>
         <BrandingSection
               title="C.e.o, Founder"
-              >82% of Entrepreneurs fail due to a lack of consistent cash flow, and 38% fail 
-              due to running out of cash entirely. High Ticket Offer Financing is making it  possible for
-              entrepreneurs to pursue their passions longer and without  running out of capital.</BrandingSection>
+              >Our mission is to create more
+              millionaire entrepreneurs by ensuring you have all the funding you need to start and scale your
+              business aggressively.</BrandingSection>
         </div>
 
         <ReuseComponent 

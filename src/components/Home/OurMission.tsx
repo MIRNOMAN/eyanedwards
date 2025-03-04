@@ -16,10 +16,10 @@ export default function OurMission() {
     
     {/* Content */}
     <div className=''>
-    <div className="relative  text-center md:py-[100px] z-[1] bg-black" >
+    <div className="relative  text-center py-8 md:py-[100px] z-[1] bg-black" >
         <div style={{ backgroundImage: `url(${backroundShado.src})` }} className='absolute inset-0 z-[-1] opacity-20'></div>
-      <h2 className="text-2xl md:text-[50px] md:leading-[55px] font-bold md:py-[5px] font-minion py-[25px] text-yellow-500">Our Mission</h2>
-      <p className="text-lg text-center py-[25px] md:py-[5px]  md:text-[40px] font-normal font-montserrat md:px-[374px] md:leading-[50px] tracking-widest">
+      <h2 className="text-2xl md:text-[50px] md:leading-[55px] font-bold md:py-[5px] font-minion py-[10px] text-yellow-500">Our Mission</h2>
+      <p className="text-base text-center  md:py-[5px] pb-7 md:pb-0  md:text-[40px] font-normal font-montserrat md:px-[374px] md:leading-[50px] tracking-widest">
         Empowering businesses and individuals with financial solutions to bring dreams to life.
       </p>
     </div>

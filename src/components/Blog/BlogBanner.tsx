@@ -10,7 +10,7 @@ export default function BlogBanner() {
         </div>
         
         {/* Small Sections */}
-        <div className="flex flex-col gap-[40px] space-y-44 md:space-y-0">
+        <div className="md:flex flex-col hidden  md:gap-[40px]  md:space-y-0">
           <div className="bg-gray-400 h-28  md:h-[200px] md:w-[300px] rounded-2xl">
           <iframe className="md:w-full w-full md:h-full h-[280px] md:rounded-[30px] rounded-2xl" src="https://www.youtube.com/embed/mRKJTzM-qTk?si=I4ACGMsJGhCJ8F7s" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
           </div>
@@ -21,7 +21,7 @@ export default function BlogBanner() {
       </div>
  
       {/* Text Section */}
-      <div className="md:mt-8 mt-[200px]">
+      <div className="md:mt-[20px]  mt-[100px]">
         <h2 className="text-xl md:text-[50px] font-semibold md:leading-[60px] md:pt-[50px] text-[#AA7C38] font-minion text-gray-800">
           How to Start a Profitable Funding Business
         </h2>

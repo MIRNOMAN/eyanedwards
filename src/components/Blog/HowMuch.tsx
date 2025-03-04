@@ -46,7 +46,20 @@ export default function HowMuch() {
         <h2 className="text-3xl md:text-[50px]  md:leading-[60px] md:tracking-widest font-semibold font-minion md:pt-[95px]  pt-10 text-[#AA7C38] mb-8">
         Conclusion
         </h2> 
-        <p className='font-normal md:mr-[250px] md:mb-[50px] font-montserrat text-lg md:tracking-widest md:text-[16px] mt-[8px] md:leading-[29px]'>Starting a business funding company is one of the most profitable opportunities for entrepreneurs. By leveraging the resources and support from High Ticket Offer Financing, you can fast-track your success and create a scalable, recession-proof business.</p>
+        <p className='font-normal md:mr-[250px] md:mb-[50px] font-montserrat text-lg md:tracking-widest md:text-[16px] mt-[5px] md:leading-[29px]'>Incorporating God into your business isn&apos;t just about achieving financial success; it&apos;s about fulfilling your divine calling, serving others, and building a legacy that glorifies Him.
+
+        When you trust God as your ultimate CEO, you gain clarity, confidence, and purpose in your entrepreneurial journey. As Matthew 5:16 reminds us:</p>
+        <p className="font-normal md:mr-[250px] md:mb-[50px] font-montserrat text-lg md:tracking-widest md:text-[16px] mt-[5px] md:leading-[29px]">
+          When you trust God as your ultimate CEO, you gain clarity, confidence, and purpose in your entrepreneurial
+          journey. As Matthew 5:16 reminds us:
+        </p>
+        <blockquote className="border-l-4 border-amber-600 pl-4 italic mb-4 font-normal md:mr-[250px] md:mb-[50px] font-montserrat text-lg md:tracking-widest md:text-[16px] mt-[5px] md:leading-[29px]">
+          &quot;Let your light shine before others, that they may see your good deeds and glorify your Father in heaven.&quot;
+        </blockquote>
+        <p className="font-normal md:mr-[250px] md:mb-[50px] font-montserrat text-lg md:tracking-widest md:text-[16px] mt-[5px] md:leading-[29px]">
+          Are you ready to invite God into your business? Start today, and watch how He transforms your efforts into
+          something extraordinary.
+        </p>
    </div>
     </section>
   )

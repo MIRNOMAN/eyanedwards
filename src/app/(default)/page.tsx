@@ -32,13 +32,13 @@ export default function Home() {
       src="https://youtu.be/au2n7VVGv_c?si=z78a_rSkpqvUijGN" 
       buttonTitle ="Check My Funding Eligibility"
       ><h1 className="font-minion">Fund Your <span className='text-yellow-400 font-minion'>Dreams</span> Fuel Your <span className='text-yellow-500 font-minion'>Future</span></h1></Banner>
-      <UltimateFunding/>
+      
       <BrandingSection
       title="C.e.o, Founder"
-      ><h1>82% of Entrepreneurs fail due to a lack of consistent cash flow, and 38% fail 
-      due to running out of cash entirely. High Ticket Offer Financing is making it  possible for
-      entrepreneurs to pursue their passions longer and without  running out of capital.</h1></BrandingSection>
-  
+      ><h1>Our mission is to create more
+      millionaire entrepreneurs by ensuring you have all the funding you need to start and scale your
+      business aggressively.</h1></BrandingSection>
+      <UltimateFunding/>
       <AboutUs/>
 
 
@@ -53,15 +53,15 @@ export default function Home() {
           <div className="mt-[37px] space-y-[24px]">
           <div className="flex justify-start items-center gap-8">
           <Image src={about_icon} width={500} height={500} alt="Your Image"  className="h-[28px] w-[35px]"/>
-          <h1 className="text-[20px] font-montserrat text-[#4C4C4C]  font-medium">Quick approvals</h1>
+          <h1 className="text-[20px] font-montserrat text-black  font-medium">Quick approvals</h1>
           </div>
           <div className="flex justify-start items-center gap-8 ">
           <Image src={about_icon} width={500} height={500} alt="Your Image"  className="h-[28px] w-[35px]"/>
-          <h1 className="text-[20px] font-montserrat  text-[#4C4C4C]  font-medium">Competitive rates</h1>
+          <h1 className="text-[20px] font-montserrat  text-black  font-medium">Competitive rates</h1>
           </div>
           <div className="flex justify-start items-center gap-8">
           <Image src={about_icon} width={500} height={500} alt="Your Image"  className="h-[28px] w-[35px]"/>
-          <h1 className="text-[20px] text-[#4C4C4C]  font-montserrat  font-medium">Personalized support</h1>
+          <h1 className="text-[20px] text-black  font-montserrat  font-medium">Personalized support</h1>
           </div>
           </div>
           

@@ -38,8 +38,8 @@ export default function HowItWorks() {
       </div>
 
       <div className="text-center md:flex justify-between items-center mt-5 mb-8">
-        <h2 className="md:text-2xl text-xl font-minion md:text-left  md:text-[50px] text-[20px] font-semibold leading-[60px]">
-          <span className="text-yellow-500 md:text-[50px] text-[20px] font-semibold leading-[60px]">
+        <h2 className="md:text-2xl text-xl font-minion md:text-left  md:text-[50px] text-[20px] font-semibold md:leading-[60px]">
+          <span className="text-yellow-500 md:text-[50px] text-[20px] font-semibold md:leading-[60px]">
             How It Works:
           </span>{' '}
           Our pre-approval <br />process is simple, quick, and easy.

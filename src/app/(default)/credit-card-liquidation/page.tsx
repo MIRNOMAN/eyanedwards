@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import pictureSection1 from "@/assets/CreditCard/Meet_The_Team.png";
-import vectorIcon from '@/assets/CreditCard/vector_10.png';
+import vectorIcon from '@/assets/CreditCard/shild.png';
 import Image1 from "@/assets/CreditCard/Rectangle3.png";
 import Image2 from "@/assets/CreditCard/Rectangle4.png";
 import Image3 from "@/assets/CreditCard/vecteezy.png";  // Fixed double slash issue
@@ -20,11 +20,13 @@ export default function Page() {
   return (
     <div>
       <StaticBanner />
-      <UltimateFundingPage />
+      
       
       <BrandingSection title="Alexis Holifield">
       “If your income provides for your upkeep, it will become your downfall
       </BrandingSection>
+
+      <UltimateFundingPage />
 
       <ReuseComponent 
         leftContent={
@@ -34,7 +36,7 @@ export default function Page() {
         } 
         rightContent={
           <div className="md:text-left mx-auto md:p-10 md:mr-48 md:px-0 text-center mt-[60px]">
-            <p className="md:text-[18px] text-base font-medium md:pt-[120px] tracking-wide md:leading-[27px]">
+            <p className="md:text-[18px] text-base font-medium md:pt-[20px] tracking-wide md:leading-[27px]">
               Here at HTOF Insurance Solutions, we understand the hard work it takes to build your success. Whether you’re a driven professional or a visionary entrepreneur, your wealth represents years of dedication, passion, and perseverance.
             </p>
             <button className="md:px-16 px-5 py-3 bg-yellow-600 text-white font-semibold rounded-2xl mt-[65px] hover:bg-yellow-700">

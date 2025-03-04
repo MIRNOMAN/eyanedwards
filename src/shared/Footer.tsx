@@ -3,10 +3,10 @@ import React from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
-import logo_1 from "@/assets/logo/logo_1.png";
-import logo_2 from "@/assets/logo/logo_2.png";
-import logo_3 from "@/assets/logo/logo_3.png";
-import logo_4 from "@/assets/logo/logo_4.png";
+import logo_1 from "@/assets/logo/yellowBrick.png";
+import logo_2 from "@/assets/logo/yellowBrick.png";
+import logo_3 from "@/assets/logo/yellowBrick.png";
+import logo_4 from "@/assets/logo/yellowBrick.png";
 import logo_icon_1 from "@/assets/home/instagram.png";
 import logo_icon_2 from "@/assets/home/tiktok.png";
 import logo_icon_3 from "@/assets/home/youtube.png";
@@ -32,7 +32,7 @@ export default function Footer() {
       <div className=" container mx-auto grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center sm:text-left">
         {/* Logo & Operating Hours */}
         <div className="flex flex-col items-center sm:items-start">
-          <Image src={logo} alt="Company Logo" width={110} height={85} className="h-20 w-auto" />
+          <Image src={logo} alt="Company Logo" width={900} height={900} className="md:h-16 h-12 w-auto" />
           <h1 className="text-lg font-bold mt-3 text-primary">Operating Hours</h1>
           <p className="text-sm mt-1 text-gray-400">Mon - Fri (9am - 9pm)</p>
         </div>

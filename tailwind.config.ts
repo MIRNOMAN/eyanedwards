@@ -9,7 +9,7 @@ export default {
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  theme: {
+  theme:  {
     extend: {
       container: {
         center: true, // Optional: Center the container

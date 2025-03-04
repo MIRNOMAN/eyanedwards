@@ -5,10 +5,10 @@ import Image, { StaticImageData } from "next/image";
 import { usePathname } from "next/navigation"; // Import usePathname
 import { RxHamburgerMenu } from "react-icons/rx";
 import { X } from "lucide-react";
-import logo1 from "@/assets/logo/logo_1.png";
-import logo2 from "@/assets/logo/logo_2.png";
-import logo3 from "@/assets/logo/logo_4.png";
-import logo4 from "@/assets/logo/logo_3.png";
+import logo1 from "@/assets/logo/yellowBrick.png";
+import logo2 from "@/assets/logo/yellowBrick.png";
+import logo3 from "@/assets/logo/yellowBrick.png";
+import logo4 from "@/assets/logo/yellowBrick.png";
 
 export default function Navber() {
   
@@ -34,7 +34,7 @@ export default function Navber() {
         <nav className={` top-0   w-full z-50 absolute bg-black `}>
         <div className="container font-montserrat font-normal mx-auto flex items-center justify-between px-4 py-9">
         <Link href="/" className="flex items-center gap-2">
-        <Image className="md:w-[130px] w-[50px] object-contain" src={logo} alt="nav logo" />
+        <Image className="md:w-[250px] w-[200px] object-contain" src={logo} alt="nav logo" />
       </Link>
   
           <div className="hidden items-center gap-8 lg:flex">
@@ -43,7 +43,7 @@ export default function Navber() {
               { name: "Our Services", path: "/our-services" },
               { name: "Credit Card Liquidation", path: "/credit-card-liquidation" },
               { name: "Group Economics", path: "/group-economics" },
-              { name: "Red Card", path: "/" },
+              { name: "Blog", path: "/blog" },
               { name: "Get The Book", path: "" },
               { name: "About Us", path: "" },
             ].map((link) => (
@@ -57,7 +57,7 @@ export default function Navber() {
             ))}
           </div>
   
-          <div className="hidden items-center gap-4 lg:flex">
+          <div className="hidden items-center gap-4 lg:flex ">
             <button className="hidden font-clash rounded-[8px] border  px-6 py-[10px] font-medium text-white md:block">
             Contact Us
             </button>
@@ -95,7 +95,7 @@ export default function Navber() {
                 { name: "Our Services", path: "/our-services" },
                 { name: "Credit Card Liquidation", path: "/credit-card-liquidation" },
                 { name: "Group Economics", path: "/group-economics" },
-                { name: "Red Card", path: "/" },
+                { name: "Blog", path: "/blog" },
                 { name: "Get The Book", path: "/" },
                 { name: "About Us", path: "/" },
               ].map((link) => (

@@ -19,7 +19,7 @@ export default function ContactUs() {
         />
       </div>
 
-      <div className="mx-auto py-[164px] px-[20px]  md:px-[123px]  bg-black bg-opacity-70 justify-between items-center">
+      <div className="mx-auto md:py-[164px] py-[50px] px-[20px]  md:px-[123px]  bg-black bg-opacity-70 justify-between items-center">
         <div className="container flex flex-col md:flex-row gap-[105px]">
         {/* Left Section (Text and Social Icons) */}
         <div className="text-center md:text-left w-full md:pt-20  md:w-1/2 text-white">
@@ -44,7 +44,7 @@ export default function ContactUs() {
         </div>
 
         {/* Right Section (Form) */}
-        <div className="w-full md:w-1/2 mt-12 md:mt-0">
+        <div className="w-full md:w-1/2 mt-3 md:mt-0">
           <form className="bg-white p-[30px] sm:p-[50px] rounded-lg shadow-lg">
             <div className="mb-4 font-montserrat">
               <label htmlFor="fullName" className="block text-gray-700 font-bold mb-2">
@@ -56,7 +56,7 @@ export default function ContactUs() {
                 name="fullName"
                 placeholder="Full Name"
                 required
-                className="shadow appearance-none rounded-lg w-full py-5 px-5 text-gray-700 leading-tight text-[#333333] focus:outline-none focus:shadow-outline bg-[#ECECEC]"
+                className="shadow appearance-none rounded-lg w-full py-5 px-5 text-gray-700 leading-tight text-black focus:outline-none focus:shadow-outline bg-[#ECECEC]"
               />
             </div>
             <div className="mb-4">
@@ -69,7 +69,7 @@ export default function ContactUs() {
                 name="email"
                 placeholder="Email"
                 required
-                className="shadow appearance-none rounded-lg w-full py-5 px-5 text-gray-700 leading-tight text-[#333333] focus:outline-none focus:shadow-outline bg-[#ECECEC]"
+                className="shadow appearance-none rounded-lg w-full py-5 px-5 text-gray-700 leading-tight text-black focus:outline-none focus:shadow-outline bg-[#ECECEC]"
               />
             </div>
             <div className="mb-6">
@@ -82,16 +82,16 @@ export default function ContactUs() {
                 name="phone"
                 placeholder="Phone Number"
                 required
-                className="shadow appearance-none rounded-lg w-full py-5 px-5 text-gray-700 leading-tight text-[#333333] focus:outline-none focus:shadow-outline bg-[#ECECEC]"
+                className="shadow appearance-none rounded-lg w-full py-5 px-5 text-gray-700 leading-tight text-black focus:outline-none focus:shadow-outline bg-[#ECECEC]"
               />
             </div>
-            <p className="text-left leading-7 text-[13px] my-[50px]">
+            <p className="text-left text-black leading-7 text-[13px] my-[50px]">
               This form is protected by reCAPTCHA and the Google{" "}
-              <a href="#" className="font-bold">
+              <a href="#" className="font-bold text-black">
                 Privacy Policy
               </a>{" "}
               and{" "}
-              <a href="#" className="font-bold">
+              <a href="#" className="font-bold text-black">
                 Terms of Service
               </a>{" "}
               apply.
